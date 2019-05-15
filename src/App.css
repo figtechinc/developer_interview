@@ -23,6 +23,29 @@
   color: #61dafb;
 }
 
+.recipe-button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.recipe-button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.recipe-button:active {
+  background-color: darkgrey;
+  color: orange;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

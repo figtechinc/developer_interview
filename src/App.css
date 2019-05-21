@@ -36,12 +36,12 @@
   flex-direction: column;
 }
 
-.recipe-button:hover {
+.post-button:hover {
   background-color: lightgrey;
   cursor: pointer;
 }
 
-.recipe-button:active {
+.post-button:active {
   background-color: darkgrey;
   color: orange;
 }

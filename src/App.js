@@ -24,7 +24,7 @@ class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>Post Title</p>
-          <div className="recipe-button" onClick={this.handleClick}>
+          <div className="post-button" onClick={this.handleClick}>
             Get Post
           </div>
         </header>

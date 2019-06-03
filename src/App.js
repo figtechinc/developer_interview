@@ -5,11 +5,11 @@ import "./App.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { endpoint: "https://jsonplaceholder.typicode.com/todos/1" };
   }
 
   handleClick = () => {
-    fetch(figPostsURL)
+    fetch(this.state.endpoint)
       .then(function(response) {
         return response.json();
       })
@@ -34,5 +34,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-const figPostsURL = "https://jsonplaceholder.typicode.com/todos/1";

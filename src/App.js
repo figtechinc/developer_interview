@@ -10,10 +10,10 @@ class App extends React.Component {
 
   handleClick = () => {
     fetch(this.state.endpoint)
-      .then(function(response) {
+      .then(function (response) {
         return response.json();
       })
-      .then(function(myJson) {
+      .then(function (myJson) {
         console.log(JSON.stringify(myJson));
       });
   };

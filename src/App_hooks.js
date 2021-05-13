@@ -9,11 +9,11 @@ function App() {
 
   const handleClick = () => {
     fetch(endpoint)
-      .then(function (response) {
+      .then(function(response) {
         return response.json();
       })
-      .then(function (myJson) {
-        console.log(JSON.stringify(myJson));
+      .then(function(myJson) {
+        console.log(myJson);
       });
   };
 
@@ -21,7 +21,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Post Title</p>
+        <h3>Posts</h3>
+        <div className="posts">
+          <p>Post 1</p>
+          <p>Post 2</p>
+        </div>
         <div className="post-button" onClick={() => handleClick()}>
           Get Post
         </div>

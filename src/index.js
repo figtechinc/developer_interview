@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // Plase import App from ./App_hooks if you would like to work with React Hooks.
-import App from "./App";
-// Import App from './App_hooks'
+// import App from "./App";
+import App from "./App_hooks";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
